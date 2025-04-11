@@ -1,0 +1,123 @@
+Time resolution is 1 ps
+
+------------------- Cycle @ 0 ns -------------------
+ PC      =          x
+ IF/ID IR= 0xxxxxxxxx   (opcode=x  rs=x  rt=x  rd=x  imm16=0xxxxx)
+ Control = xxxxxxxxx (9 bits)  signExt=         x  ID_EX_npc=         x
+ ID stage: regData1=         x regData2=         x rt=x rd=x
+                   0 | clk=1 reset=1 PC=         0 IF_ID_IR=0x00000000 IF_ID_NPC=         0
+                   5 | clk=0 reset=1 PC=         0 IF_ID_IR=0x00000000 IF_ID_NPC=         0
+                   9 | clk=0 reset=0 PC=         0 IF_ID_IR=0x00000000 IF_ID_NPC=         0
+
+------------------- Cycle @ 10000 ns -------------------
+ PC      =          0
+ IF/ID IR= 0x00000000   (opcode=0  rs=0  rt=0  rd=0  imm16=0x0000)
+ Control = 000000000 (9 bits)  signExt=         0  ID_EX_npc=         0
+ ID stage: regData1=         0 regData2=         0 rt=0 rd=0
+                  10 | clk=1 reset=0 PC=         4 IF_ID_IR=0x002300aa IF_ID_NPC=         8
+                  15 | clk=0 reset=0 PC=         4 IF_ID_IR=0x002300aa IF_ID_NPC=         8
+
+------------------- Cycle @ 20000 ns -------------------
+ PC      =          4
+ IF/ID IR= 0x002300aa   (opcode=0  rs=1  rt=3  rd=0  imm16=0x00aa)
+ Control = 100001100 (9 bits)  signExt=         0  ID_EX_npc=         0
+ ID stage: regData1=         0 regData2=         0 rt=0 rd=0
+                  20 | clk=1 reset=0 PC=         8 IF_ID_IR=0x10654321 IF_ID_NPC=        12
+                  25 | clk=0 reset=0 PC=         8 IF_ID_IR=0x10654321 IF_ID_NPC=        12
+
+------------------- Cycle @ 30000 ns -------------------
+ PC      =          8
+ IF/ID IR= 0x10654321   (opcode=4  rs=3  rt=5  rd=8  imm16=0x4321)
+ Control = 100001100 (9 bits)  signExt=       170  ID_EX_npc=         8
+ ID stage: regData1=         1 regData2=         3 rt=3 rd=0
+                  30 | clk=1 reset=0 PC=        12 IF_ID_IR=0x00100022 IF_ID_NPC=        16
+                  35 | clk=0 reset=0 PC=        12 IF_ID_IR=0x00100022 IF_ID_NPC=        16
+
+------------------- Cycle @ 40000 ns -------------------
+ PC      =         12
+ IF/ID IR= 0x00100022   (opcode=0  rs=0  rt=16  rd=0  imm16=0x0022)
+ Control = 001000100 (9 bits)  signExt=     17185  ID_EX_npc=        12
+ ID stage: regData1=         3 regData2=         5 rt=5 rd=8
+                  40 | clk=1 reset=0 PC=        16 IF_ID_IR=0x8c123456 IF_ID_NPC=        20
+                  45 | clk=0 reset=0 PC=        16 IF_ID_IR=0x8c123456 IF_ID_NPC=        20
+
+------------------- Cycle @ 50000 ns -------------------
+ PC      =         16
+ IF/ID IR= 0x8c123456   (opcode=35  rs=0  rt=18  rd=6  imm16=0x3456)
+ Control = 100001100 (9 bits)  signExt=        34  ID_EX_npc=        16
+ ID stage: regData1=         0 regData2=        16 rt=16 rd=0
+                  50 | clk=1 reset=0 PC=        20 IF_ID_IR=0x8f123456 IF_ID_NPC=        24
+                  55 | clk=0 reset=0 PC=        20 IF_ID_IR=0x8f123456 IF_ID_NPC=        24
+
+------------------- Cycle @ 60000 ns -------------------
+ PC      =         20
+ IF/ID IR= 0x8f123456   (opcode=35  rs=24  rt=18  rd=6  imm16=0x3456)
+ Control = 110100001 (9 bits)  signExt=     13398  ID_EX_npc=        20
+ ID stage: regData1=         0 regData2=        18 rt=18 rd=6
+                  60 | clk=1 reset=0 PC=        24 IF_ID_IR=0xad654321 IF_ID_NPC=        28
+                  65 | clk=0 reset=0 PC=        24 IF_ID_IR=0xad654321 IF_ID_NPC=        28
+
+------------------- Cycle @ 70000 ns -------------------
+ PC      =         24
+ IF/ID IR= 0xad654321   (opcode=43  rs=11  rt=5  rd=8  imm16=0x4321)
+ Control = 110100001 (9 bits)  signExt=     13398  ID_EX_npc=        24
+ ID stage: regData1=        24 regData2=        18 rt=18 rd=6
+                  70 | clk=1 reset=0 PC=        28 IF_ID_IR=0x13012345 IF_ID_NPC=        32
+                  75 | clk=0 reset=0 PC=        28 IF_ID_IR=0x13012345 IF_ID_NPC=        32
+
+------------------- Cycle @ 80000 ns -------------------
+ PC      =         28
+ IF/ID IR= 0x13012345   (opcode=4  rs=24  rt=1  rd=4  imm16=0x2345)
+ Control = 000010001 (9 bits)  signExt=     17185  ID_EX_npc=        28
+ ID stage: regData1=        11 regData2=         5 rt=5 rd=8
+                  80 | clk=1 reset=0 PC=        32 IF_ID_IR=0xac654321 IF_ID_NPC=        36
+                  85 | clk=0 reset=0 PC=        32 IF_ID_IR=0xac654321 IF_ID_NPC=        36
+
+------------------- Cycle @ 90000 ns -------------------
+ PC      =         32
+ IF/ID IR= 0xac654321   (opcode=43  rs=3  rt=5  rd=8  imm16=0x4321)
+ Control = 001000100 (9 bits)  signExt=      9029  ID_EX_npc=        32
+ ID stage: regData1=        24 regData2=         1 rt=1 rd=4
+                  90 | clk=1 reset=0 PC=         0 IF_ID_IR=0x12012345 IF_ID_NPC=        40
+                  95 | clk=0 reset=0 PC=         0 IF_ID_IR=0x12012345 IF_ID_NPC=        40
+
+------------------- Cycle @ 100000 ns -------------------
+ PC      =          0
+ IF/ID IR= 0x12012345   (opcode=4  rs=16  rt=1  rd=4  imm16=0x2345)
+ Control = 000010001 (9 bits)  signExt=     17185  ID_EX_npc=        36
+ ID stage: regData1=         3 regData2=         5 rt=5 rd=8
+                 100 | clk=1 reset=0 PC=         4 IF_ID_IR=0x002300aa IF_ID_NPC=         8
+                 105 | clk=0 reset=0 PC=         4 IF_ID_IR=0x002300aa IF_ID_NPC=         8
+
+------------------- Cycle @ 110000 ns -------------------
+ PC      =          4
+ IF/ID IR= 0x002300aa   (opcode=0  rs=1  rt=3  rd=0  imm16=0x00aa)
+ Control = 001000100 (9 bits)  signExt=      9029  ID_EX_npc=        40
+ ID stage: regData1=        16 regData2=         1 rt=1 rd=4
+                 110 | clk=1 reset=0 PC=         8 IF_ID_IR=0x10654321 IF_ID_NPC=        12
+                 115 | clk=0 reset=0 PC=         8 IF_ID_IR=0x10654321 IF_ID_NPC=        12
+
+------------------- Cycle @ 120000 ns -------------------
+ PC      =          8
+ IF/ID IR= 0x10654321   (opcode=4  rs=3  rt=5  rd=8  imm16=0x4321)
+ Control = 100001100 (9 bits)  signExt=       170  ID_EX_npc=         8
+ ID stage: regData1=         1 regData2=         3 rt=3 rd=0
+                 120 | clk=1 reset=0 PC=        12 IF_ID_IR=0x00100022 IF_ID_NPC=        16
+                 125 | clk=0 reset=0 PC=        12 IF_ID_IR=0x00100022 IF_ID_NPC=        16
+
+------------------- Cycle @ 130000 ns -------------------
+ PC      =         12
+ IF/ID IR= 0x00100022   (opcode=0  rs=0  rt=16  rd=0  imm16=0x0022)
+ Control = 001000100 (9 bits)  signExt=     17185  ID_EX_npc=        12
+ ID stage: regData1=         3 regData2=         5 rt=5 rd=8
+                 130 | clk=1 reset=0 PC=        16 IF_ID_IR=0x8c123456 IF_ID_NPC=        20
+                 135 | clk=0 reset=0 PC=        16 IF_ID_IR=0x8c123456 IF_ID_NPC=        20
+
+------------------- Cycle @ 140000 ns -------------------
+ PC      =         16
+ IF/ID IR= 0x8c123456   (opcode=35  rs=0  rt=18  rd=6  imm16=0x3456)
+ Control = 100001100 (9 bits)  signExt=        34  ID_EX_npc=        16
+ ID stage: regData1=         0 regData2=        16 rt=16 rd=0
+                 140 | clk=1 reset=0 PC=        20 IF_ID_IR=0x8f123456 IF_ID_NPC=        24
+                 145 | clk=0 reset=0 PC=        20 IF_ID_IR=0x8f123456 IF_ID_NPC=        24
+$finish called at time : 149 ns : File "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top_tb.v" Line 94
