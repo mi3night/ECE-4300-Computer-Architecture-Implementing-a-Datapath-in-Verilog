@@ -1,0 +1,588 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu May  8 01:21:04 2025
+# Process ID: 31428
+# Current directory: C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent31616 C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.xpr
+# Log file: C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/vivado.log
+# Journal file: C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM\vivado.jou
+# Running On: DESKTOP-SV406LK, OS: Windows, CPU Frequency: 3600 MHz, CPU Physical cores: 16, Host memory: 68629 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM'
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 1451.734 ; gain = 189.426
+update_compile_order -fileset sources_1
+close [ open {C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mem_stage.v} w ]
+add_files {{C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mem_stage.v}}
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'pipeline_top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'pipeline_top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj pipeline_top_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/alu_control_ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_control_ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/alu_ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/ex_mem_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex_mem_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/ex_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/id_ex_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id_ex_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/id_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/if_id_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if_id_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/if_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/incr4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module incr4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/inst_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mem_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mux2_ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2_ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mux2to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/pc_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeline_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/reg_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/sign_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeline_top_tb
+WARNING: [VRFC 10-3380] identifier 'mem_wb_wb_ctl' is used before its declaration [C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top_tb.v:76]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pipeline_top_tb_behav xil_defaultlib.pipeline_top_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pipeline_top_tb_behav xil_defaultlib.pipeline_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <mem_and_gate> not found while processing module instance <branch_and> [C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mem_stage.v:34]
+ERROR: [VRFC 10-2063] Module <data_memory> not found while processing module instance <data_mem_block> [C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mem_stage.v:41]
+ERROR: [VRFC 10-2063] Module <mem_wb_reg> not found while processing module instance <mem_wb_latch> [C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mem_stage.v:51]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1535.625 ; gain = 21.656
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+close [ open {C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mem_wb_reg.v} w ]
+add_files {{C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mem_wb_reg.v}}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+close [ open {C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/data_memory.v} w ]
+add_files {{C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/data_memory.v}}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+close [ open {C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mem_and_gate.v} w ]
+add_files {{C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mem_and_gate.v}}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_and_gate.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_and_gate.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_and_gate.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_and_gate.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_and_gate.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_and_gate.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_and_gate.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_and_gate.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_and_gate.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_and_gate.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'pipeline_top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_and_gate.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_and_gate.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_and_gate.v:]
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'pipeline_top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj pipeline_top_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/alu_control_ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_control_ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/alu_ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/ex_mem_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex_mem_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/ex_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/id_ex_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id_ex_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/id_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/if_id_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if_id_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/if_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/incr4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module incr4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/inst_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mem_and_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_and_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mem_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mem_wb_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_wb_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mux2_ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2_ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mux2to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/pc_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeline_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/reg_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/sign_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeline_top_tb
+WARNING: [VRFC 10-3380] identifier 'mem_wb_wb_ctl' is used before its declaration [C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top_tb.v:76]
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pipeline_top_tb_behav xil_defaultlib.pipeline_top_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pipeline_top_tb_behav xil_defaultlib.pipeline_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'ex_mem_write_reg' on this module [C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top_tb.v:47]
+ERROR: [VRFC 10-3180] cannot find port 'ex_mem_write_data' on this module [C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top_tb.v:46]
+ERROR: [VRFC 10-3180] cannot find port 'ex_mem_alu_result' on this module [C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top_tb.v:45]
+ERROR: [VRFC 10-3180] cannot find port 'ex_mem_zero' on this module [C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top_tb.v:44]
+ERROR: [VRFC 10-3180] cannot find port 'ex_mem_pc_branch' on this module [C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top_tb.v:43]
+ERROR: [VRFC 10-8530] module 'mux2_ex(WIDTH=5)' is ignored due to previous errors [C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mux2_ex.v:1]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1535.625 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_and_gate.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_and_gate.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_and_gate.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'pipeline_top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'pipeline_top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+ERROR: [Common 17-180] Spawn failed: No error
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_wb_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_and_gate.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Desktop\4203\IF STAGE\4300lab1a.srcs\sources_1\new\pipeline_top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\data_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\admin\Documents\GitHub\ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog\IF + ID + EX + MEM\4300lab1a.srcs\sources_1\new\mem_stage.v:]
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj pipeline_top_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/alu_control_ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_control_ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/alu_ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/ex_mem_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex_mem_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/ex_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/id_ex_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id_ex_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/id_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/if_id_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if_id_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/if_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/incr4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module incr4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/inst_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mem_and_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_and_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mem_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mem_wb_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_wb_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mux2_ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2_ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mux2to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/pc_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeline_top
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'ex_mem_write_reg' is not allowed [C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top.v:84]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/reg_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/sign_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeline_top_tb
+WARNING: [VRFC 10-3380] identifier 'mem_wb_wb_ctl' is used before its declaration [C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top_tb.v:76]
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pipeline_top_tb_behav xil_defaultlib.pipeline_top_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pipeline_top_tb_behav xil_defaultlib.pipeline_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'ex_mem_write_data' on this module [C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top_tb.v:46]
+ERROR: [VRFC 10-3180] cannot find port 'ex_mem_alu_result' on this module [C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top_tb.v:45]
+ERROR: [VRFC 10-3180] cannot find port 'ex_mem_zero' on this module [C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top_tb.v:44]
+ERROR: [VRFC 10-3180] cannot find port 'ex_mem_pc_branch' on this module [C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top_tb.v:43]
+ERROR: [VRFC 10-8530] module 'mux2_ex(WIDTH=5)' is ignored due to previous errors [C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.srcs/sources_1/new/mux2_ex.v:1]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM/4300lab1a.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1547.266 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May  8 01:48:52 2025...
