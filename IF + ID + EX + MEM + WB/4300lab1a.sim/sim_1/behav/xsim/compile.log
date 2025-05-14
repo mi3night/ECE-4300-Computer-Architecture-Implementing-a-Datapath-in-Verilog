@@ -36,11 +36,6 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE
 INFO: [VRFC 10-311] analyzing module pc_reg
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module pipeline_top
-WARNING: [VRFC 10-9336] redeclaration of ANSI port 'ex_mem_pc_branch' is not allowed [C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top.v:86]
-WARNING: [VRFC 10-9336] redeclaration of ANSI port 'ex_mem_zero' is not allowed [C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top.v:87]
-WARNING: [VRFC 10-9336] redeclaration of ANSI port 'ex_mem_alu_result' is not allowed [C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top.v:88]
-WARNING: [VRFC 10-9336] redeclaration of ANSI port 'ex_mem_write_data' is not allowed [C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top.v:89]
-WARNING: [VRFC 10-9336] redeclaration of ANSI port 'ex_mem_write_reg' is not allowed [C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top.v:90]
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/reg_file.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module reg_file
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/sign_extend.v" into library xil_defaultlib
@@ -49,5 +44,3 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE
 INFO: [VRFC 10-311] analyzing module wb_stage
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Desktop/4203/IF STAGE/4300lab1a.srcs/sources_1/new/pipeline_top_tb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module pipeline_top_tb
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Implementing-a-Datapath-in-Verilog/IF + ID + EX + MEM + WB/4300lab1a.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl

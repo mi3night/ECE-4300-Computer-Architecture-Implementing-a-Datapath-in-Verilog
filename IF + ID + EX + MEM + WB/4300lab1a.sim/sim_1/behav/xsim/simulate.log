@@ -15,19 +15,19 @@ T=25000 | PC=00000004 | IR=002300aa | NPC=00000008
        ID: control=100001100 | rs=1 rt=0 rd=0
        EX: ALUres=         0 | zero=1 | write_reg=0
        MEM: mem_read=0 | alu_result=         0 | mem_data=         0 | wb_reg=0
-       WB: regwrite=1 | write_reg=0 | write_data=         0
+       WB: regwrite=0 | write_reg=0 | write_data=         0
 
 T=35000 | PC=00000008 | IR=10654321 | NPC=0000000c
        ID: control=100001100 | rs=3 rt=3 rd=0
        EX: ALUres=         0 | zero=1 | write_reg=0
        MEM: mem_read=0 | alu_result=         0 | mem_data=         0 | wb_reg=0
-       WB: regwrite=1 | write_reg=0 | write_data=         0
+       WB: regwrite=0 | write_reg=0 | write_data=         0
 
 T=45000 | PC=0000000c | IR=00100022 | NPC=00000010
        ID: control=001000100 | rs=0 rt=5 rd=8
        EX: ALUres=         4 | zero=0 | write_reg=3
        MEM: mem_read=0 | alu_result=         0 | mem_data=         0 | wb_reg=0
-       WB: regwrite=0 | write_reg=0 | write_data=         0
+       WB: regwrite=1 | write_reg=0 | write_data=         0
 
 T=55000 | PC=00000010 | IR=8c123456 | NPC=00000014
        ID: control=100001100 | rs=0 rt=16 rd=0
@@ -39,27 +39,27 @@ T=65000 | PC=00000014 | IR=8f123456 | NPC=00000018
        ID: control=110100001 | rs=24 rt=18 rd=6
        EX: ALUres=        16 | zero=0 | write_reg=16
        MEM: mem_read=1 | alu_result=4294967294 | mem_data=         0 | wb_reg=5
-       WB: regwrite=1 | write_reg=5 | write_data=         0
+       WB: regwrite=0 | write_reg=5 | write_data=4294967294
 
 MEM READ : mem[21] -> 8c123456
 T=75000 | PC=00000018 | IR=ad654321 | NPC=0000001c
        ID: control=110100001 | rs=11 rt=18 rd=6
        EX: ALUres=     13398 | zero=0 | write_reg=18
        MEM: mem_read=1 | alu_result=        16 | mem_data=         0 | wb_reg=16
-       WB: regwrite=1 | write_reg=16 | write_data=         0
+       WB: regwrite=1 | write_reg=16 | write_data=        16
 
 MEM READ : mem[27] -> 002300aa
 T=85000 | PC=0000001c | IR=13012345 | NPC=00000020
        ID: control=000010001 | rs=24 rt=5 rd=8
        EX: ALUres=     13422 | zero=0 | write_reg=18
        MEM: mem_read=0 | alu_result=     13398 | mem_data=2350003286 | wb_reg=18
-       WB: regwrite=0 | write_reg=18 | write_data=     13398
+       WB: regwrite=1 | write_reg=18 | write_data=2350003286
 
 T=95000 | PC=00000020 | IR=ac654321 | NPC=00000024
        ID: control=001000100 | rs=3 rt=1 rd=4
        EX: ALUres=     17196 | zero=0 | write_reg=5
        MEM: mem_read=0 | alu_result=     13422 | mem_data=   2293930 | wb_reg=18
-       WB: regwrite=0 | write_reg=18 | write_data=     13422
+       WB: regwrite=1 | write_reg=18 | write_data=   2293930
 
 MEM WRITE: mem[75] = 00000005
 T=105000 | PC=00000024 | IR=12012345 | NPC=00000028
@@ -79,13 +79,13 @@ T=125000 | PC=0000002c | IR=00000000 | NPC=00000030
        ID: control=100001100 | rs=0 rt=0 rd=0
        EX: ALUres=        15 | zero=0 | write_reg=1
        MEM: mem_read=0 | alu_result=     17188 | mem_data=         0 | wb_reg=5
-       WB: regwrite=1 | write_reg=5 | write_data=     17188
+       WB: regwrite=0 | write_reg=5 | write_data=     17188
 
 T=135000 | PC=00000030 | IR=00000000 | NPC=00000034
        ID: control=100001100 | rs=0 rt=0 rd=0
        EX: ALUres=         0 | zero=1 | write_reg=0
        MEM: mem_read=0 | alu_result=        15 | mem_data=         0 | wb_reg=1
-       WB: regwrite=1 | write_reg=1 | write_data=        15
+       WB: regwrite=0 | write_reg=1 | write_data=        15
 
 T=145000 | PC=00000034 | IR=00000000 | NPC=00000038
        ID: control=100001100 | rs=0 rt=0 rd=0
@@ -591,15 +591,4 @@ T=975000 | PC=00000180 | IR=00000000 | NPC=00000184
        MEM: mem_read=0 | alu_result=         0 | mem_data=         0 | wb_reg=0
        WB: regwrite=1 | write_reg=0 | write_data=         0
 
-T=985000 | PC=00000184 | IR=00000000 | NPC=00000188
-       ID: control=100001100 | rs=0 rt=0 rd=0
-       EX: ALUres=         0 | zero=1 | write_reg=0
-       MEM: mem_read=0 | alu_result=         0 | mem_data=         0 | wb_reg=0
-       WB: regwrite=1 | write_reg=0 | write_data=         0
-
-T=995000 | PC=00000188 | IR=00000000 | NPC=0000018c
-       ID: control=100001100 | rs=0 rt=0 rd=0
-       EX: ALUres=         0 | zero=1 | write_reg=0
-       MEM: mem_read=0 | alu_result=         0 | mem_data=         0 | wb_reg=0
-       WB: regwrite=1 | write_reg=0 | write_data=         0
-
+T=9
