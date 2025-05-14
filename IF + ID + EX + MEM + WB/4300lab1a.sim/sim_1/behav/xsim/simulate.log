@@ -591,4 +591,15 @@ T=975000 | PC=00000180 | IR=00000000 | NPC=00000184
        MEM: mem_read=0 | alu_result=         0 | mem_data=         0 | wb_reg=0
        WB: regwrite=1 | write_reg=0 | write_data=         0
 
-T=9
+T=985000 | PC=00000184 | IR=00000000 | NPC=00000188
+       ID: control=100001100 | rs=0 rt=0 rd=0
+       EX: ALUres=         0 | zero=1 | write_reg=0
+       MEM: mem_read=0 | alu_result=         0 | mem_data=         0 | wb_reg=0
+       WB: regwrite=1 | write_reg=0 | write_data=         0
+
+T=995000 | PC=00000188 | IR=00000000 | NPC=0000018c
+       ID: control=100001100 | rs=0 rt=0 rd=0
+       EX: ALUres=         0 | zero=1 | write_reg=0
+       MEM: mem_read=0 | alu_result=         0 | mem_data=         0 | wb_reg=0
+       WB: regwrite=1 | write_reg=0 | write_data=         0
+

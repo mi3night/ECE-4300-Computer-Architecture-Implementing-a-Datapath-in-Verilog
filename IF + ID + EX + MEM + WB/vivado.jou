@@ -16,3 +16,4 @@ open_project {C:/Users/admin/Documents/GitHub/ECE-4300-Computer-Architecture-Imp
 update_compile_order -fileset sources_1
 launch_simulation
 source pipeline_top_tb.tcl
+close_sim

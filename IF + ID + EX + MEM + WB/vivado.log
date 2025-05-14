@@ -873,3 +873,7 @@ T=995000 | PC=00000188 | IR=00000000 | NPC=0000018c
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'pipeline_top_tb_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
 launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1573.016 ; gain = 39.344
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May 12 15:40:52 2025...
